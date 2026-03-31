@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
+}
+
+header {
+  text-align: center;
+  background: #020617;
+  padding: 20px;
+}
+
+.sub {
+  color: #38bdf8;
+}
+
+nav a {
+  margin: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #0077b6, #00b4d8);
+}
+
+.hero h2 {
+  font-size: 40px;
+}
+
+.hero button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.section {
+  padding: 50px;
+  text-align: center;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background: #334155;
+}
+
+/* REVIEWS */
+.reviews {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.review {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.review img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.add-review input,
+.add-review textarea {
+  width: 80%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.whatsapp {
+  display: inline-block;
+  margin-top: 15px;
+  background: #25D366;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}

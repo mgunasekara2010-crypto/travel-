@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Coastline Logistics & Leisure</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Coastline Logistics & Leisure</h1>
+  <p class="sub">GUNASEKARA TRANSPORT SERVICE</p>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#tourism">Tourism</a>
+    <a href="#transport">Transport</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <h2>Explore Sri Lanka With Us 🌴</h2>
+  <p>Trusted Tourism & Transport Services</p>
+  <button onclick="scrollToSection()">View Services</button>
+</section>
+
+<!-- TOURISM -->
+<section id="tourism" class="section">
+  <h2>Tourism Services</h2>
+  <div class="cards">
+    <div class="card">Whale Watching 🐋</div>
+    <div class="card">Boat Rides 🚤</div>
+    <div class="card">Sunset Tours 🌅</div>
+    <div class="card">Crocodile Watching 🐊</div>
+    <div class="card">Yala Safari 🐘</div>
+    <div class="card">Family Tours 👨‍👩‍👧‍👦</div>
+  </div>
+</section>
+
+<!-- TRANSPORT -->
+<section id="transport" class="section">
+  <h2>Transport & Rentals</h2>
+  <div class="cards">
+    <div class="card">Lorry Rent 🚛</div>
+    <div class="card">Generator Rent ⚡</div>
+    <div class="card">Water Bowser 💧</div>
+    <div class="card">All Transport Services 🚚</div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section id="reviews" class="section">
+  <h2>Customer Reviews ⭐</h2>
+
+  <div class="reviews">
+
+    <div class="review">
+      <img src="review1.jpg">
+      <h4>John (UK)</h4>
+      <p>Amazing whale watching experience! Highly recommended.</p>
+    </div>
+
+    <div class="review">
+      <img src="review2.jpg">
+      <h4>Kasun (Sri Lanka)</h4>
+      <p>Very reliable transport service. Friendly driver.</p>
+    </div>
+
+  </div>
+
+  <!-- ADD REVIEW -->
+  <div class="add-review">
+    <h3>Add Your Review</h3>
+    <input type="text" id="name" placeholder="Your Name">
+    <input type="file" id="photo">
+    <textarea id="message" placeholder="Your Review"></textarea>
+    <button onclick="addReview()">Submit</button>
+  </div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <h2>Contact Us</h2>
+
+  <p><strong>Owner:</strong> M.H.T.R. GUNASEKARA</p>
+  <p><strong>Phone:</strong> 0778180899</p>
+  <p><strong>Address:</strong> Kaluwalle Watta, Mirissa</p>
+
+  <a href="https://wa.me/94778180899" class="whatsapp">Chat on WhatsApp</a>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
